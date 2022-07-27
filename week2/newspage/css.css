@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+.container {
+    display: grid;
+    /* position: relative;
+    gap: 10px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px auto 100px;
+
+    /* width: 70%; */
+    margin: 0 auto;
+    /* grid-template-areas:
+        "header header header"
+        "aside main main"
+        "footer footer footer "; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    /* background-size: cover;
+    background: url(https://schools.firstnews.co.uk/wp-content/uploads/sites/3/2019/10/Whats-on-Front-Page-of-Newspaper-Featured.png); */
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: black;
+    margin: 16px 0;
+    font-weight: 800;
+}
+
+h3 {
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+p {
+    margin: 16px 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+}
+
+/* Navigation */
+header {
+    line-height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 16px;
+}
+
+nav ul li a {
+    color: #202020;
+}
+
+header {
+    /* grid-area: header; */
+
+    grid-column-start: span 3;
+
+    background-color: #F9F9F9;
+}
+
+aside {
+    /* grid-area: aside; */
+    background-color: #F9F9F9;
+    grid-column-start: span 1;
+    padding: 80px;
+}
+
+main {
+    /* grid-area: main; */
+    background-color: #F9F9F9;
+    grid-column-start: span 2;
+    padding: 100px;
+
+}
+
+footer {
+    /* grid-area: footer; */
+    background-color: #F9F9F9;
+    grid-column-start: span 3;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+}

@@ -1,0 +1,132 @@
+body {
+    background-color: bisque;
+
+    margin: 0 auto;
+
+
+}
+
+header {
+    background-color: bisque;
+    border-bottom: 1px solid wheat;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li {
+    color: #7295c0;
+    font-weight: 300px;
+    font-size: 18px;
+    font-family: "oswald", sans-serif;
+    width: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+}
+
+li:hover {
+    color: #466995;
+    font-family: "Varela Round ", sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+
+h1 {
+    color: #466995;
+
+    font-family: "Varela Round ", sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: blue;
+    font-family: "Varela Round ", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+    opacity: 0.75;
+
+}
+
+h3 {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+h4 {
+    color: rgba(102, 186 102, 0.8);
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: hsl(255, 100%, 25%);
+    font-family: "Varela Round", sans-serif;
+    font-size: 18px;
+
+}
+
+footer {
+    background-color: hsla(255, 100%, 25%, 0.4);
+    text-align: center;
+    height: 100px;
+}
+
+.welcome {
+    background-color: hsla(255, 100%, 25%, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+}
+
+.question {
+    text-align: center;
+    position: relative;
+    top: 45px;
+    clear: left;
+}
+
+.answer {
+
+    margin: 20px;
+    border: 1px solid #466995;
+    display: block;
+}
+
+.answer:hover {
+    background-color: #c0d6dc;
+    color: black;
+    margin: 20px;
+
+}
+
+.answer:hover h3 {
+    color: blue;
+}
