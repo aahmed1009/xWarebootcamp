@@ -1,0 +1,407 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background: #fff;
+    color: #666;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.65em;
+}
+
+h1 {
+    color: #555;
+    font-size: 2em;
+    line-height: 1.35em;
+}
+
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+ol,
+ul {
+    list-style: none;
+}
+
+hr {
+    width: 40%;
+    color: gray;
+    background-color: #9dc66b;
+    border: 0;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.5);
+    margin: 2em 0;
+}
+
+a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+/* FIXME: */
+/* first section */
+.header {
+    padding: 9em 0 9em 0;
+    background-color: #4686a0;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed, fixed;
+    background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+    background-position: top left, center center, center center;
+    background-size: auto, cover, cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+
+.header h1 {
+    color: white;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+
+        transition: ease-in-out;
+
+    }
+}
+
+.header {
+    animation: transitionIn 4s;
+}
+
+.header button {
+    color: whitesmoke;
+    border: 2px solid white;
+    background-color: transparent;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font: inherit;
+    margin-top: 20px;
+}
+
+.header {
+    transition-duration: 890ms;
+    /* transition-delay: 0.2s; */
+    transition-timing-function: ease-in-out;
+    position: relative;
+}
+
+
+.line {
+    position: absolute;
+    left: 50%;
+    border-left: 1px solid #fff;
+    height: 100%;
+}
+
+/* FIXME: */
+/* second section */
+.explore {
+
+    padding: 112px 0px 60px;
+
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+    /* padding: 50px; */
+
+    box-sizing: border-box;
+    align-items: stretch;
+
+}
+
+.explore h2 {
+    color: #555;
+    ;
+    font-size: 35px;
+    margin: 0px;
+    vertical-align: baseline;
+    margin: 0px 0px 19px;
+}
+
+.explore p {
+    display: block;
+    color: #333;
+
+    margin: 0 4em 2em 0;
+}
+
+.explore img {
+    /* border-radius: 25px; */
+    justify-self: right;
+
+}
+
+/* TODO: */
+/* third section */
+
+.main.style2 {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed;
+    background-image: url("images/overlay1.png"), url("images/header.jpg");
+    background-size: auto, cover;
+
+}
+
+
+.main.style2 h2 {
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.main.style2 p {
+    padding: 15px;
+}
+
+
+ul.major-icons {
+
+    list-style: none;
+    padding-left: 0;
+    font-size: 50px;
+    padding-bottom: 100px;
+
+
+}
+
+ul.major-icons li {
+
+    display: inline-block;
+    /* padding: 2.5em; */
+    padding: 50px;
+    margin: 60px;
+    text-align: center;
+    border: 1px solid white;
+    transform: rotate(45deg);
+}
+
+ul.major-icons li i {
+    transform: rotate(-45deg);
+}
+
+ul.major-icons li .icon {
+
+    border: solid 1px rgba(144, 144, 144, 0.5);
+    display: inline-block;
+    height: 8em;
+    line-height: 8em;
+    margin: 0;
+    text-align: center;
+    width: 800px;
+}
+
+/* TODO: */
+/* fourth section */
+.explore3 {
+    margin: 20px;
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+}
+
+.explore3 button {
+    border: 1px solid gray;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 3px;
+    font: inherit;
+}
+
+.explore3 button:hover {
+    color: white;
+    background-color: grey;
+}
+
+.explore3 h1 {
+    font-size: 40px;
+}
+
+.explore3 hr {
+    display: inline-block;
+    margin: 0;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* TODO: */
+/* fifth section */
+.signup {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed;
+    background-image: url(images/overlay1.png), url(images/header.jpg);
+    background-size: auto, cover;
+    text-align: center;
+    display: block;
+}
+
+.signup button {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(242, 237, 237);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 2px;
+    font: inherit;
+
+}
+
+.signup button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.signup ul li a button.primary {
+    background-color: white;
+    color: black;
+}
+
+.signup ul li a button.primary:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.signup h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.signup p {
+
+    margin-top: 10px;
+    padding: 5px;
+    border: 0;
+    font-size: 50px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.signup ul {
+    display: block;
+    cursor: default;
+    list-style: none;
+    margin-left: -1em;
+    padding-left: 0;
+
+    margin: 0px 0px 0px 0px;
+
+}
+
+.signup hr {
+    display: inline-block;
+    width: 10%;
+    color: #ffffff;
+}
+
+.signup ul li {
+
+    display: inline-block;
+    /* 
+    padding: 0 0 0 1em; */
+    padding: 5px;
+}
+
+
+/* TODO: */
+/* sixth section */
+.footer {
+
+    padding: 4em 0 4em 0;
+    background-attachment: scroll;
+    background-color: #4686a0;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed, fixed;
+    background-image: url(images/overlay2.png), url(images/overlay4.svg), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+    background-position: top left, center center, center center;
+    background-size: auto, cover, cover;
+    text-align: center;
+    padding: 70px 0px;
+
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.footer li {
+    line-height: 1em;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+.footer a {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+
+.footer .copyright {
+    font-size: 16px;
+    list-style: none;
+    margin: 2em 0 0 0;
+    padding: 0;
+}
+
+.footer .copyright li {
+    border-left: solid 1px;
+    display: inline-block;
+    line-height: 1em;
+    margin-left: 1em;
+    padding: 0 0 0 1em;
+}

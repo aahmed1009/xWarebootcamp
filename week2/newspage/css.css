@@ -65,6 +65,7 @@ img {
 /* Navigation */
 header {
     line-height: 100px;
+
 }
 
 nav {
@@ -73,7 +74,7 @@ nav {
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
-    box-shadow: 2px 3px 2px #f1f1f1;
+    /* box-shadow: 5px 10px 18px red */
 }
 
 nav ul li {
@@ -96,15 +97,16 @@ header {
 aside {
     /* grid-area: aside; */
     background-color: #F9F9F9;
-    grid-column-start: span 1;
+    /* grid-column-start: span 1; */
     padding: 80px;
+    
 }
 
 main {
     /* grid-area: main; */
     background-color: #F9F9F9;
     grid-column-start: span 2;
-    padding: 100px;
+    padding: 70px;
 
 }
 
