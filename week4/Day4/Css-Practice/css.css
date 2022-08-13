@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: antiquewhite;
+    height: 5000px;
+}
+
+/* First h1 in the code. */
+/* .main+h1 {
+    color: red
+} */
+
+/* all p in main clas */
+/* .main p {
+    color: blue;
+} */
+
+/* child first p in main */
+/* .main>p {
+    color: blueviolet;
+} */
+
+/* .main~h1 {
+    color: aqua;
+} */
+
+/* .arrow {
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+} */
+
+/* 
+.parent {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+position: relative;
+}
+
+.child {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    bottom: 20px;
+    position: absolute;
+
+}  */
+/* .parent2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+   
+}
+
+.child2 {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    bottom: 20px;
+    position: relative;
+
+} */
+/* .space {
+    background-color: aqua;
+    height: 700px;
+}
+
+.sticky1 {
+    background-color: red;
+    border: 5px solid black;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.sticky2 {
+    background-color: yellow;
+    border: 10px solid orange;
+    height: 50px;
+    top: 70px;
+    position: sticky;
+    box-sizing: border-box;
+}
+
+.sticky3 {
+    top: 60px;
+    background-color: green;
+    height: 100px;
+    position: sticky;
+    box-sizing: border-box; 
+}
