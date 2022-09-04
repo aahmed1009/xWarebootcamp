@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div id="App">
+        <header>
+            <h1>Goals List</h1>
+          </header>
+          <section id="user-goals">
+            <h2>Add Your Goals To  list</h2>
+            <input type="text" v-model="enteredGoalValue" />
+            <button @click="addGoal">Add Goal</button>
+            <p v-if="goals.length === 0">
+                No goals have been added yet - please start adding some goals !
+            </p>
+            <ul v-else>
+              <li v-for="(goal, index) in goals" :key="goal" >
+                
+                <p>{{ goal }}</p>
+                <button @click="removeGoal">Remove Goal</button>
+                
+            </ul>
+            <ul>
+              <li>  <p>Vue - The Complete Guide (incl. Router & Composition API)</p></li>
+              <li><p>Progressive Web Apps (PWA) - The Complete Guide</p></li>
+              
+              <li><p>The Complete JavaScript Course 2022: From Zero to Expert! (Jonas-Schmedtamnn)</p></li>
+              <li><p>Web Design for Web Developers: Build Beautiful Websites! (Jonas-Schmedtamnn)</p></li>
+              <li><p>Build Responsive Real-World Websites with HTML and CSS(Jonas-Schmedtamnn)</p></li>
+              <li><p>Advanced CSS and Sass: Flexbox, Grid, Animations and More! (Jonas-Schmedtamnn)</p></li>
+              <li>   <p>CSS - The Complete Guide 2022 (incl. Flexbox, Grid & Sass)</p></li>
+              <li><p>100 Days Of Code - 2022 Web Development Bootcamp</p></li> 
+            
+              <li>       
+                <p>Git & GitHub - The Practical Guide
+<li><p>50 Projects In 50 Days - HTML, CSS & JavaScript </p></li>
+                </p></li>
+                <li><p>Tailwind CSS From Scratch | Learn By Building Projects</p></li>
+       <li><p>Bootstrap 4 From Scratch With 5 Projects(Brad Traversy)</p></li>
+             
+               
+              </li>
+            </ul>
+
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

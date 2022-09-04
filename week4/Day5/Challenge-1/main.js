@@ -1,21 +1,24 @@
 "use strict"
-let btn=document.querySelector(".btn")
+let btn = document.querySelector(".btn")
 
-const fun=function(){
-  let text=document.querySelector(".areaOne").value
-//   console.log(text)
-  let textt=text.split("\n")
+const fun = function () {
+  let text = document.querySelector(".areaOne").value
+  //   console.log(text)
+  let textt = text.split("\n")
   console.log(textt)
-for (let list of textt){
-    let[first,second]=list.toLowerCase().trim().split("_")
-    let result=`${first}${second.replace(second[0],second[0].toUpperCase())}`
+  for (let list of textt) {
+    let [first, second] = list.toLowerCase().trim().split("_")
+    let result = `${first}${second.replace(second[0],second[0].toUpperCase())}`
     console.log(result)
-  
-    
-}
-}
-btn.addEventListener('click',fun)
 
+    // document.querySelector('.areaTwo').innerHTML=result
+    document.querySelector('.areaTwo').append(result)
+
+  }
+}
+btn.addEventListener('click', fun)
+
+document.querySelector('.areaTwo').innerHTML = result
 
 // const convert = function (str) {
 //     let text = str.split("_")

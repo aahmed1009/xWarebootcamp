@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 5000px;
+}
+/* 
+.inline {
+
+    display: inline;
+    background-color: red;
+}
+
+.inline-block {
+    display: inline-block;  
+    height: 150px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.block {
+    width: 50%;
+    background-color: brown;
+}
+
+.none {
+
+    display: none;
+} */
+
+/* positions */
+.arrow {
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+}
+
+/* sticky */
+ .space {
+    background-color: aqua;
+    /* height: 700px; */
+}
+
+.sticky1 {
+    background-color: red;
+    border: 5px solid black;
+    height: 70px;
+    position: sticky;
+    top: 0;    
+    box-sizing: border-box;
+}
+
+.sticky2 {
+    background-color: yellow;
+    border: 10px solid orange;
+    height: 50px;
+    top: 90px;
+    position: sticky;
+    box-sizing: border-box;
+}
+.stickyy{
+    height: 200px;
+}
+
+/* .sticky3 {
+    top:120px;
+    background-color: green;
+    height: 150px;
+    position: sticky;
+    box-sizing: border-box; 
+}  */
+/* relative and absolute */
+.parent {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.child {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    bottom: 20px;
+    position: absolute;
+}
